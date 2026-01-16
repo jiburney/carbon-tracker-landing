@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Track your web browsing carbon emissions in real-time with Carbon Footprint Tracker browser extension">
+    <title>Carbon Footprint Tracker - Browser Extension</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Track Your Web Browsing Carbon Footprint</h1>
+                    <p class="tagline">Understand the environmental impact of your internet usage with real-time CO₂ tracking</p>
+                    <div class="cta-buttons">
+                        <a href="#download" class="btn btn-primary">Download Beta</a>
+                        <a href="#how-it-works" class="btn btn-secondary">Learn More</a>
+                    </div>
+                    <div class="tech-stack">
+                        <span class="tech-badge">React</span>
+                        <span class="tech-badge">TypeScript</span>
+                        <span class="tech-badge">Webpack 5</span>
+                        <span class="tech-badge">CO2.js</span>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="extension-mockup">
+                        <div class="browser-chrome">
+                            <div class="browser-dots">
+                                <span></span><span></span><span></span>
+                            </div>
+                            <div class="browser-title">Carbon Footprint Tracker</div>
+                        </div>
+                        <div class="extension-preview">
+                            <div class="extension-header">
+                                <div class="leaf-icon">🌱</div>
+                                <h2>Your Carbon Footprint</h2>
+                            </div>
+                            <div class="carbon-display">
+                                <div class="carbon-amount">342.7 g</div>
+                                <div class="carbon-label">CO₂ Emissions</div>
+                            </div>
+                            <div class="comparison">
+                                <div class="comparison-icon">📱</div>
+                                <div class="comparison-text">Like charging 41 smartphones</div>
+                            </div>
+                            <div class="intensity-badge green">Low Intensity</div>
+                            <div class="top-sites">
+                                <h3>Top Emitting Sites</h3>
+                                <div class="site-item">
+                                    <span class="site-name">youtube.com</span>
+                                    <span class="site-emissions">125.3g (36%)</span>
+                                </div>
+                                <div class="site-item">
+                                    <span class="site-name">github.com</span>
+                                    <span class="site-emissions">89.1g (26%)</span>
+                                </div>
+                                <div class="site-item">
+                                    <span class="site-name">reddit.com</span>
+                                    <span class="site-emissions">67.4g (19%)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <h2 class="section-title">Features</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">📊</div>
+                    <h3>Real-Time Tracking</h3>
+                    <p>Automatically measures data transfer on every page load using the Performance API</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🌍</div>
+                    <h3>Accurate CO₂ Calculations</h3>
+                    <p>Uses industry-standard Sustainable Web Design Model v4 from The Green Web Foundation</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">💡</div>
+                    <h3>Contextual Comparisons</h3>
+                    <p>Relatable comparisons like driving, streaming, and charging devices to understand your impact</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📈</div>
+                    <h3>Per-Site Breakdown</h3>
+                    <p>Track which websites contribute most to your carbon footprint with detailed analytics</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">💾</div>
+                    <h3>Persistent Storage</h3>
+                    <p>Your data persists across browser sessions, giving you long-term tracking insights</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Lightweight</h3>
+                    <p>Less than 50ms performance overhead per page load - you won't even notice it's there</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="how-it-works" id="how-it-works">
+        <div class="container">
+            <h2 class="section-title">How It Works</h2>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>Install the Extension</h3>
+                        <p>Download and load the extension in Chrome, Edge, Brave, or Firefox</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>Browse Normally</h3>
+                        <p>The extension silently measures data transfer as you visit websites</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>Track Your Impact</h3>
+                        <p>Click the extension icon to see your total emissions and per-site breakdown</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h3>Make Informed Choices</h3>
+                        <p>Use the insights to reduce your digital carbon footprint</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Privacy Section -->
+    <section class="privacy">
+        <div class="container">
+            <div class="privacy-content">
+                <div class="privacy-icon">🔒</div>
+                <div class="privacy-text">
+                    <h2>100% Private</h2>
+                    <p>All data stays completely local on your device. No analytics, no telemetry, no external network requests. Your browsing history never leaves your computer.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tech Stack Section -->
+    <section class="tech-section">
+        <div class="container">
+            <h2 class="section-title">Built With Modern Technologies</h2>
+            <div class="tech-details">
+                <div class="tech-item">
+                    <h3>React + TypeScript</h3>
+                    <p>Type-safe, component-based UI for the extension popup</p>
+                </div>
+                <div class="tech-item">
+                    <h3>Chrome Manifest V3</h3>
+                    <p>Modern extension platform with service workers for background processing</p>
+                </div>
+                <div class="tech-item">
+                    <h3>CO2.js</h3>
+                    <p>Carbon calculations powered by The Green Web Foundation's industry-standard library</p>
+                </div>
+                <div class="tech-item">
+                    <h3>Webpack 5</h3>
+                    <p>Optimized build tooling with hot module replacement for development</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section class="download" id="download">
+        <div class="container">
+            <h2 class="section-title">Download Beta</h2>
+            <div class="download-content">
+                <div class="download-info">
+                    <h3>Current Version: 1.1.0 Beta</h3>
+                    <p>This extension is currently in beta testing. Download and install it manually to start tracking your carbon footprint.</p>
+                    <div class="browser-support">
+                        <h4>Supported Browsers:</h4>
+                        <div class="browser-icons">
+                            <span class="browser-badge">Chrome</span>
+                            <span class="browser-badge">Edge</span>
+                            <span class="browser-badge">Brave</span>
+                            <span class="browser-badge">Firefox</span>
+                        </div>
+                    </div>
+                    <a href="../carbon-tracker-v1.1.0-beta.zip" class="btn btn-download" download>
+                        <span class="download-icon">⬇️</span>
+                        Download Extension (Beta)
+                    </a>
+                    <p class="coming-soon">Chrome Web Store version coming soon</p>
+                </div>
+                <div class="installation-steps">
+                    <h4>Quick Installation:</h4>
+                    <ol>
+                        <li>Download and extract the ZIP file</li>
+                        <li>Open <code>chrome://extensions/</code> in your browser</li>
+                        <li>Enable "Developer mode" (top right)</li>
+                        <li>Click "Load unpacked" and select the <code>dist</code> folder</li>
+                        <li>Start browsing and tracking your carbon footprint!</li>
+                    </ol>
+                    <a href="#" class="detailed-instructions" onclick="toggleInstructions(); return false;">View detailed instructions →</a>
+                </div>
+            </div>
+            <div id="detailed-instructions" class="detailed-instructions-panel" style="display: none;">
+                <div class="instructions-content">
+                    <h3>Detailed Installation Instructions</h3>
+                    <div class="browser-instructions">
+                        <div class="browser-section">
+                            <h4>Chrome / Edge / Brave</h4>
+                            <ol>
+                                <li>Download the ZIP file and extract it to a folder</li>
+                                <li>Open your browser's extensions page:
+                                    <ul>
+                                        <li>Chrome: <code>chrome://extensions/</code></li>
+                                        <li>Edge: <code>edge://extensions/</code></li>
+                                        <li>Brave: <code>brave://extensions/</code></li>
+                                    </ul>
+                                </li>
+                                <li>Enable "Developer mode" using the toggle in the top right</li>
+                                <li>Click "Load unpacked" button (top left)</li>
+                                <li>Navigate to and select the <code>dist</code> folder inside the extracted folder</li>
+                                <li>The extension icon should appear in your toolbar</li>
+                            </ol>
+                        </div>
+                        <div class="browser-section">
+                            <h4>Firefox</h4>
+                            <ol>
+                                <li>Download and extract the ZIP file</li>
+                                <li>Open <code>about:debugging#/runtime/this-firefox</code></li>
+                                <li>Click "Load Temporary Add-on..."</li>
+                                <li>Select any file in the <code>dist</code> folder (e.g., manifest.json)</li>
+                                <li>Note: Firefox temporary add-ons are removed when you close the browser</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Carbon Footprint Tracker</h3>
+                    <p>Open source browser extension for tracking web browsing emissions</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Credits</h4>
+                    <p>CO₂ calculations by <a href="https://github.com/thegreenwebfoundation/co2.js" target="_blank">The Green Web Foundation</a></p>
+                    <p>Based on Sustainable Web Design Model v4</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>Have questions or feedback?</p>
+                    <!-- Add your contact info here -->
+                    <p class="contact-placeholder">[Your Email or GitHub]</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Carbon Footprint Tracker. Open source under ISC License.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                const href = this.getAttribute('href');
+                if (href !== '#' && href !== '#detailed-instructions') {
+                    e.preventDefault();
+                    const target = document.querySelector(href);
+                    if (target) {
+                        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                    }
+                }
+            });
+        });
+
+        // Toggle detailed instructions
+        function toggleInstructions() {
+            const panel = document.getElementById('detailed-instructions');
+            if (panel.style.display === 'none') {
+                panel.style.display = 'block';
+                panel.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+            } else {
+                panel.style.display = 'none';
+            }
+        }
+
+        // Add scroll animation for feature cards
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.feature-card, .step').forEach(el => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(20px)';
+            el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+            observer.observe(el);
+        });
+    </script>
+</body>
+</html>
